@@ -1,21 +1,18 @@
 import React from "react";
 
-const logo = "https://cdn.auth0.com/blog/auth0-react-sample/assets/logo.png";
+import "../home.css";
+
+const url =
+  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcH71XUNwBNgrhADpjgugAkTkuGdg1-A8Wxg&usqp=CAU";
 
 const Hero = () => (
-  <div className="text-center hero">
-    <img className="mb-3 app-logo" src={logo} alt="React logo" width="120" />
-    <h1 className="mb-4">React Sample Project</h1>
+  <div className="text-center hero beans-background">
+    <img src={url} alt="Beans" width="200" />
+    <h1 className="mb-4 ">Beans</h1>
     <p className="lead">
-      This is a sample application that demonstrates an authentication flow for
-      an SPA, using{" "}
-      <a
-        target="_blank"
-        rel="noopener noreferrer"
-        href="https://auth0.com/docs/quickstart/spa/react"
-      >
-        React
-      </a>
+      We love beans... drink some beans
+      <br />
+      ... spill some beans.
     </p>
   </div>
 );
